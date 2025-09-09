@@ -23,6 +23,21 @@ public class Main {
             System.out.println("selecciones una opcion por favor:☺");
             opcionseleccionada=leerTeclado.nextInt();
 
+            //evaluando caminos segun opcion del usuario
+            if (opcionseleccionada==1) {
+                System.out.println("SUMANDO");
+            } else if (opcionseleccionada==2) {
+                System.out.println("RESTANDO");
+            } else if (opcionseleccionada==3) {
+                System.out.println("MULTIPLICANDO");
+            } else if (opcionseleccionada==4) {
+                System.out.println("DIVIDIENDO");
+            } else if (opcionseleccionada==5) {
+                System.out.println("SALIENDO");
+            }else {
+                System.out.println("INVALIDO");
+            }
+
         }
         }
     }
